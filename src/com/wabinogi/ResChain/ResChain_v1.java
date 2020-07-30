@@ -2,6 +2,7 @@ package com.wabinogi.ResChain;
 
 import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
+import java.io.FilterInputStream;
 import java.util.AbstractList;
 import java.util.LinkedList;
 import java.util.List;
@@ -42,6 +43,7 @@ public class ResChain_v1 {
         //责任链开始处理
         filters.wash(rawString);
         System.out.println(rawString);
+
 
     }
 
